@@ -3,10 +3,15 @@ html, body{
     box-sizing: border-box;
 }
 
+div{
+    height: 100%;
+    display: grid;
+}
+
 form{
     height: 120px;
     width: 400px;
-    margin: 50px auto;
+    margin: auto;
     padding: 50px;
     box-shadow: 1px 1px 5px 2px rgb(170, 170, 170);
 }
